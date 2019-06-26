@@ -1,0 +1,32 @@
+{
+  "name": "mongo_api",
+  "version": "1.0.0",
+  "description": "A simple api for mongo db using mongoose for connection and extreme for routing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "development": "npm start"
+  },
+  "keywords": [
+    "api",
+    "mongodb",
+    "extreme",
+    "mongoose"
+  ],
+  "author": "Niko Dovidija",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.6.1"
+  },
+  "devDependencies": {
+    "eslint": "^6.0.1",
+    "eslint-config-standard": "^12.0.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-node": "^9.1.0",
+    "eslint-plugin-promise": "^4.1.1",
+    "eslint-plugin-standard": "^4.0.0",
+    "nodemon": "^1.19.1"
+  }
+}
