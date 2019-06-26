@@ -21,6 +21,7 @@ $ npm run development
 The api is accesed through the address http://localhost:3000/ with the following endpoints:
 
 * GET - /products - returns all products
-*  GET - /product/:id - returns the specified product with the id
+* GET - /product/:id - returns the specified product with the id
 * POST - /product - saves the specified product object
 * DELETE - /product/:id - removes the specified product with the id
+* PUT - /product - updates the specified product 
